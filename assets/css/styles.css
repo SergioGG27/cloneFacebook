@@ -1,0 +1,131 @@
+:root{
+    --tipografia-facebook : SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    --color-azul-facebook : #2f76ef;
+    --color-verde-facebook : #3fb938;
+    --color-negro-facebook : #000000;
+    --color-blanco-facebook : #ffffff;
+    --color-gis-fondo-1conta: #f0f2f5;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--tipografia-facebook);
+}
+
+.contenedor-head{ 
+    background-color: var(--color-gis-fondo-1conta);
+    padding: 72px 0px 112px;
+
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    margin: 0 150px 0 150px;
+    width: 980px;
+    height: 492px;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+
+.contenedor1{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-right: 32px;
+    width: 580px;
+}
+
+.contenedor2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+    padding: 20px 0 28px;
+    width: 396px;
+    margin-right: 0px;
+    transform: translateX(80px);
+}
+
+input, button{
+    
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    border-radius: 6px;
+    margin: 10px;
+}
+
+.lineaDiviso, .olvidar {
+    margin: 10px;
+} 
+
+
+.lenguas2 {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 0 10px;
+}
+
+.lunguas{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    margin: 10px;
+}
+
+.boton2{
+    width: 40px;
+    height: 40px;
+}
+
+.enlacesFace{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    align-items: center;
+    line-height: 1px;
+    margin: 10px;
+}
+
+.container{
+    padding-top: 20px;
+    width: 1280px;
+    height: 137.297px;
+    padding: 20px;
+}
+
+.imagenFace{
+    width: 301.062px;
+    height: 106px;
+    padding: 112px 0 16px;
+}
+
+.textoFace{
+    font-family: var(--tipografia-facebook);
+    margin-top: 100px;
+    margin-left: 30px;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+    
+}
